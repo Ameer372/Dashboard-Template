@@ -2,9 +2,7 @@
   <div class="card w-100 mx-auto shadow">
     <div class="card-header">
       <h3>
-        <a href="#" class="text-decoration-none"
-          >اضيف مؤخرا إلى جدول المؤسسات السياحية</a
-        >
+        <a href="#" class="text-decoration-none">اضيف مؤخرا إلى جدول </a>
       </h3>
     </div>
     <div class="card-body table-responsive">
