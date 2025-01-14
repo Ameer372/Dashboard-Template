@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import AdminDashboard from "./views/Dashboard/AdminDashboard.vue";
+import AdminDashboard from "./Dashboard/AdminDashboard.vue";
 export default {
   name: "App",
   components: {

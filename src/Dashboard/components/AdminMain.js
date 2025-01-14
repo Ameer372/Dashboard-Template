@@ -1,4 +1,4 @@
-import TouristTable from "./TouristTable.vue";
+import TouristTable from "./Table.vue";
 import SomeOtherTable from "./SomeOtherTable.vue";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import {
@@ -6,6 +6,7 @@ import {
   faInfoCircle,
   faGear,
 } from "@fortawesome/free-solid-svg-icons";
+
 export default {
   name: "SidePanel",
   components: {
@@ -13,8 +14,10 @@ export default {
     TouristTable,
     SomeOtherTable,
   },
+
   data() {
     return {
+      // you can add buttons dynamically here
       menuItems: [
         { icon: faHouse, label: "الرئيسية" },
         { icon: faInfoCircle, label: "من نحن" },
